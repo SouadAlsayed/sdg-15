@@ -1,0 +1,53 @@
+:root {
+  --main-color: #8da971;
+  --second-color: #f1f4ef;
+  --pop1-color: #fcca46;
+  --pop2-color: #fe7f2d;
+  --transparent-color: rgb(161, 193, 129, 0.5);
+  --p-color: #4d555b;
+  --section-main-color: #233d4d;
+  --section-trans-color: rgb(35, 61, 77, 0.5);
+  --main-transition: 0.3s;
+}
+.article {
+  padding: 165px 0;
+}
+.article .container {
+  display: flex;
+  justify-content: center;
+}
+.article .content {
+  display: grid;
+  grid-template-rows: 200px 1fr;
+  max-width: 700px;
+}
+.article .content h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 45px;
+}
+.article .content .text {
+  color: var(--p-color);
+}
+.article .content p {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.article .text .resources {
+  margin: 30px 0;
+  font-weight: bold;
+}
+.article .text .resources a {
+  color: var(--main-color);
+}
+.article .text .resources a:hover {
+  color: var(--pop2-color);
+  text-decoration: underline;
+}
+.article .text .numbered {
+  padding: 20px 0 20px 20px;
+}
