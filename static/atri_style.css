@@ -51,3 +51,11 @@
 .article .text .numbered {
   padding: 20px 0 20px 20px;
 }
+@media (max-width: 767px) {
+  .article .content h1 {
+    font-size: 22px;
+  }
+  .article .content p {
+    font-size: 14px;
+  }
+}

@@ -175,7 +175,7 @@ ul {
 @media (max-width: 767px) {
   .landing .text {
     width: 100%;
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 /* End Landing */
@@ -337,6 +337,10 @@ ul {
 @media (max-width: 767px) {
   .random-info-question {
     text-align: center;
+    font-size: 25px;
+  }
+  .random-info-text {
+    font-size: 14px;
   }
 }
 /* Start Articles */

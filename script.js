@@ -1,9 +1,3 @@
-// testimonial__author==random-info-head
-// testimonial__photo==random-info-photo
-// testimonial__name==random-info-question
-// testimonial__text==random-info-text
-// testimonial==random-info
-
 // Slider
 const slider = function () {
   const slides = document.querySelectorAll(".slide");
